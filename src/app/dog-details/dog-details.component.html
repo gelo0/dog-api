@@ -1,0 +1,8 @@
+<div *ngIf="breed">
+  <img [src]="data" />
+  <div>
+    <h2>{{ breed }}</h2>
+    <p>Poczytaj więcej o tej rasie na wikipedii:</p>
+    <a [href]="wikiUrl">{{ breed }}</a>
+  </div>
+</div>

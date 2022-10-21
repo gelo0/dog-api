@@ -1,0 +1,21 @@
+img {
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  display: flex;
+  margin: 1rem;
+}
+
+div > div {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  margin: none;
+}
+
+h1 {
+  vertical-align: top;
+}
